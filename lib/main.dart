@@ -3,9 +3,7 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(MaterialApp(
     home: Scaffold(
-      appBar: AppBar(
-        title: Text("Todo"),
-      ),
-    ),
+        appBar: AppBar(title: Text("Todo")),
+        body: Center(child: Text("Hello world!"))),
   ));
 }

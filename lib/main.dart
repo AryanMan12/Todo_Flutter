@@ -6,6 +6,9 @@ void main() {
       appBar: AppBar(
         title: Text("Todo"),
       ),
+      body: Center(
+        child: Text("Hello World"),
+      ),
     ),
   ));
 }
